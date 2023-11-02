@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(73, 196, 226),rgb(185, 118, 166));
+}
+
+h1 {
+    color: #333;
+}
+
+.timer {
+     margin: 20px;
+     margin-left: 38%;
+     padding: 20px;  
+    height: 400px;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#countdown {
+    font-size: 30px;
+    margin-top: 75px;
+}
